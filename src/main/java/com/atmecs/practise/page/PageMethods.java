@@ -6,12 +6,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class ContactUsPageMethods 
+public class PageMethods 
 {
 	WebDriver driver;
 	Properties properties;
 	
-	public ContactUsPageMethods(WebDriver driver)
+	public PageMethods(WebDriver driver)
 	{
 		this.driver = driver;
 	}
@@ -32,6 +32,11 @@ public class ContactUsPageMethods
 	public void clicking(String xpath)
 	{
 		driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
+		driver.findElement(By.xpath(xpath)).click();
+	}
+	
+	public void clickSearchButton(String xpath)
+	{
 		driver.findElement(By.xpath(xpath)).click();
 	}
 	

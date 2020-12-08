@@ -10,15 +10,15 @@ import com.atmecs.practise.util.DataProviderClass;
 public class ContactUsTest extends BasePage
 {
 
-	@Test(dataProvider = "ContactUs", dataProviderClass= DataProviderClass.class)
+	@Test(dataProvider = "testData", dataProviderClass= DataProviderClass.class)
 	public void contactUs(String mail, String orderRef)
 	{
 	
-		ContactUsPage frames = new ContactUsPage(driver);
+		ContactUsPage contactUs = new ContactUsPage(driver);
 		
 		try
 		{
-			frames.contactUsPage(mail, orderRef);
+			contactUs.contactUsPage(mail, orderRef);
 		} 
 		catch (InterruptedException e) 
 		{

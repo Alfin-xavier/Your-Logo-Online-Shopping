@@ -4,6 +4,7 @@
   <test thread-count="5" name="ChromeTest">
   	<parameter name="browser" value="chrome"></parameter>
 	    <classes>
+	    <class name="com.atmecs.practise.testscript.SearchProductTest"/>
 	      <class name="com.atmecs.practise.testscript.ContactUsTest"/>
 	    </classes>
   </test>
@@ -11,6 +12,7 @@
   <test thread-count="5" name="FirefoxTest">
   	<parameter name="browser" value="firefox"></parameter>
 	    <classes>
+	    <class name="com.atmecs.practise.testscript.SearchProductTest"/>
 	      <class name="com.atmecs.practise.testscript.ContactUsTest"/>
 	    </classes>
   </test>

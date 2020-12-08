@@ -2,7 +2,6 @@ package com.atmecs.practise.page;
 
 import java.io.IOException;
 import java.util.Properties;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import com.atmecs.practise.constants.FilePathConstants;
 import com.atmecs.practise.util.Logging;
@@ -12,11 +11,9 @@ public class ContactUsPage
 {
 	public WebDriver driver;
 
-	ContactUsPageMethods helpers;
+	PageMethods helpers;
 
 	Properties locatorsProps;
-	
-	Properties datas;
 	
 	Logging log;
 	
@@ -27,7 +24,7 @@ public class ContactUsPage
 
 	public void contactUsPage(String mail, String orderRef) throws InterruptedException, IOException
 	{
-		helpers = new ContactUsPageMethods(driver);
+		helpers = new PageMethods(driver);
 		
 		log = new Logging();
 
@@ -48,6 +45,8 @@ public class ContactUsPage
 		log.info("Clicking Send Button");
 		
 		helpers.clicking(locatorsProps.getProperty("sendButton"));
+		
+		
 
 	}
 	

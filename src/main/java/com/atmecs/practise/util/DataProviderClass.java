@@ -6,7 +6,7 @@ import org.testng.annotations.DataProvider;
 
 public class DataProviderClass 
 {
-	@DataProvider(name = "ContactUs")
+	@DataProvider(name = "testData")
 	public Object[][] readData(Method method)
 	{
 		Object[][] data = ReadDataFromExcel.readExcelData(method.getName());

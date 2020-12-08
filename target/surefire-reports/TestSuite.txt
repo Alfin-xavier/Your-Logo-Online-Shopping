@@ -1,4 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 134.72 s - in TestSuite
+Tests run: 12, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 143.69 s <<< FAILURE! - in TestSuite
+com.atmecs.practise.testscript.SearchProductTest.contactUs  Time elapsed: 5.822 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+[public void com.atmecs.practise.testscript.SearchProductTest.contactUs(java.lang.String) throws java.lang.InterruptedException,java.io.IOException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: contactUs([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) abc@gmail.com,(java.lang.String) abc]
+
+com.atmecs.practise.testscript.SearchProductTest.contactUs  Time elapsed: 5.824 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+[public void com.atmecs.practise.testscript.SearchProductTest.contactUs(java.lang.String) throws java.lang.InterruptedException,java.io.IOException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: contactUs([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) abc@gmail.com,(java.lang.String) abc]
+
