@@ -4,27 +4,22 @@
   <test thread-count="5" parallel="tests" name="ChromeTest(failed)" verbose="0">
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="com.atmecs.practise.testscript.ContactUsTest">
+        <methods>
+          <include name="contactUs"/>
+          <include name="afterMethod"/>
+          <include name="initBrowser"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.atmecs.practise.testscript.ContactUsTest -->
       <class name="com.atmecs.practise.testscript.SearchProductTest">
         <methods>
           <include name="afterMethod"/>
           <include name="initBrowser"/>
-          <include name="contactUs"/>
           <include name="beforeMethod"/>
+          <include name="searchProduct"/>
         </methods>
       </class> <!-- com.atmecs.practise.testscript.SearchProductTest -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
-  <test thread-count="5" parallel="tests" name="FirefoxTest(failed)" verbose="0">
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="com.atmecs.practise.testscript.SearchProductTest">
-        <methods>
-          <include name="afterMethod"/>
-          <include name="initBrowser"/>
-          <include name="contactUs"/>
-          <include name="beforeMethod"/>
-        </methods>
-      </class> <!-- com.atmecs.practise.testscript.SearchProductTest -->
-    </classes>
-  </test> <!-- FirefoxTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,20 +1,22 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 143.69 s <<< FAILURE! - in TestSuite
-com.atmecs.practise.testscript.SearchProductTest.contactUs  Time elapsed: 5.822 s  <<< FAILURE!
-org.testng.internal.reflect.MethodMatcherException: 
+Tests run: 40, Failures: 2, Errors: 0, Skipped: 28, Time elapsed: 236.276 s <<< FAILURE! - in TestSuite
+com.atmecs.practise.testscript.SearchProductTest.beforeMethod[chrome](0)  Time elapsed: 7.329 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7220, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
 
-[public void com.atmecs.practise.testscript.SearchProductTest.contactUs(java.lang.String) throws java.lang.InterruptedException,java.io.IOException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: contactUs([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
-Arguments: [(java.lang.String) abc@gmail.com,(java.lang.String) abc]
-
-com.atmecs.practise.testscript.SearchProductTest.contactUs  Time elapsed: 5.824 s  <<< FAILURE!
-org.testng.internal.reflect.MethodMatcherException: 
-
-[public void com.atmecs.practise.testscript.SearchProductTest.contactUs(java.lang.String) throws java.lang.InterruptedException,java.io.IOException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: contactUs([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
-Arguments: [(java.lang.String) abc@gmail.com,(java.lang.String) abc]
+com.atmecs.practise.testscript.ContactUsTest.beforeMethod[chrome](0)  Time elapsed: 7.83 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 4844, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
 

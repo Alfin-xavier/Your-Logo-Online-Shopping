@@ -25,6 +25,10 @@ public class SearchProductPage
 	
 	public void searchProduct(String product)
 	{
+		helpers = new PageMethods(driver);
+		
+		log = new Logging();
+		
 		locatorsProps = PropertyReader.readProperties(FilePathConstants.LOCATORS);
 		
 		log.info("Entering on the search box");

@@ -23,7 +23,7 @@ import com.atmecs.practise.util.TestNGListeners;
 
 public class BasePage 
 {
-	public WebDriver driver;
+	public static WebDriver driver;
 	Properties properties;
 	String baseUrl;
 	String browserUrl;
