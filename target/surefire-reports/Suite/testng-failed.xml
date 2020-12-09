@@ -17,7 +17,7 @@
           <include name="afterMethod"/>
           <include name="initBrowser"/>
           <include name="beforeMethod"/>
-          <include name="searchProduct"/>
+          <include name="searchProduct" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.atmecs.practise.testscript.SearchProductTest -->
     </classes>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="22" passed="10" failed="0" skipped="10">
+<testng-results ignored="2" total="22" passed="10" failed="1" skipped="9">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-08T18:37:20 IST" name="Suite" finished-at="2020-12-08T18:41:16 IST" duration-ms="235671">
+  <suite started-at="2020-12-09T16:30:09 IST" name="Suite" finished-at="2020-12-09T16:34:24 IST" duration-ms="254578">
     <groups>
     </groups>
-    <test started-at="2020-12-08T18:37:20 IST" name="ChromeTest" finished-at="2020-12-08T18:38:12 IST" duration-ms="51766">
+    <test started-at="2020-12-09T16:30:09 IST" name="ChromeTest" finished-at="2020-12-09T16:31:11 IST" duration-ms="61933">
       <class name="com.atmecs.practise.testscript.ContactUsTest">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@2aa5fe93]" started-at="2020-12-08T18:37:49 IST" name="beforeMethod" finished-at="2020-12-08T18:38:12 IST" duration-ms="23005" status="FAIL">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@1a0dcaa]" started-at="2020-12-09T16:30:49 IST" name="beforeMethod" finished-at="2020-12-09T16:31:11 IST" duration-ms="22594" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -21,16 +21,16 @@
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 4844, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 052ccb54-1fe4-46e8-9af3-c3706d4152e1]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 4844, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 052ccb54-1fe4-46e8-9af3-c3706d4152e1
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -43,8 +43,8 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:287)
+at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:54)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -78,7 +78,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="contactUs(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@2aa5fe93]" started-at="2020-12-08T18:38:12 IST" name="contactUs" data-provider="testData" finished-at="2020-12-08T18:38:12 IST" duration-ms="0" status="SKIP">
+        <test-method signature="contactUs(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@1a0dcaa]" started-at="2020-12-09T16:31:11 IST" name="contactUs" data-provider="testData" finished-at="2020-12-09T16:31:11 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -97,16 +97,16 @@ at java.base/java.lang.Thread.run(Thread.java:832)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 4844, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 052ccb54-1fe4-46e8-9af3-c3706d4152e1]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 4844, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 052ccb54-1fe4-46e8-9af3-c3706d4152e1
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -119,8 +119,8 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:287)
+at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:54)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -154,23 +154,23 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUs -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@2aa5fe93]" started-at="2020-12-08T18:38:12 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607432892208" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@1a0dcaa]" started-at="2020-12-09T16:31:11 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607511671774" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@2aa5fe93]" started-at="2020-12-08T18:38:12 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607432892208" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@1a0dcaa]" started-at="2020-12-09T16:31:11 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607511671774" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@2aa5fe93]" started-at="2020-12-08T18:38:12 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607432892209" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@1a0dcaa]" started-at="2020-12-09T16:31:11 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607511671775" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@2aa5fe93]" started-at="2020-12-08T18:38:12 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607432892209" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@1a0dcaa]" started-at="2020-12-09T16:31:11 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607511671775" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="contactUs(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@2aa5fe93]" started-at="2020-12-08T18:38:12 IST" name="contactUs" data-provider="testData" finished-at="2020-12-08T18:38:12 IST" duration-ms="0" status="SKIP">
+        <test-method signature="contactUs(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@1a0dcaa]" started-at="2020-12-09T16:31:11 IST" name="contactUs" data-provider="testData" finished-at="2020-12-09T16:31:11 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -189,16 +189,16 @@ at java.base/java.lang.Thread.run(Thread.java:832)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 4844, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 052ccb54-1fe4-46e8-9af3-c3706d4152e1]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 4844, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 052ccb54-1fe4-46e8-9af3-c3706d4152e1
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -211,8 +211,8 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:287)
+at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:54)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -246,15 +246,11 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUs -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@2aa5fe93]" started-at="2020-12-08T18:38:12 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607432892210" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@2aa5fe93]" started-at="2020-12-08T18:38:12 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607432892210" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@1a0dcaa]" started-at="2020-12-09T16:31:11 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607511671776" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="contactUs(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@2aa5fe93]" started-at="2020-12-08T18:38:12 IST" name="contactUs" data-provider="testData" finished-at="2020-12-08T18:38:12 IST" duration-ms="0" status="SKIP">
+        <test-method signature="contactUs(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@1a0dcaa]" started-at="2020-12-09T16:31:11 IST" name="contactUs" data-provider="testData" finished-at="2020-12-09T16:31:11 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -273,16 +269,16 @@ at java.base/java.lang.Thread.run(Thread.java:832)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 4844, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 052ccb54-1fe4-46e8-9af3-c3706d4152e1]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 4844, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 052ccb54-1fe4-46e8-9af3-c3706d4152e1
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -295,8 +291,8 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:287)
+at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:54)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -330,7 +326,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUs -->
-        <test-method signature="contactUs(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@2aa5fe93]" started-at="2020-12-08T18:38:12 IST" name="contactUs" data-provider="testData" finished-at="2020-12-08T18:38:12 IST" duration-ms="0" status="SKIP">
+        <test-method signature="contactUs(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@1a0dcaa]" started-at="2020-12-09T16:31:11 IST" name="contactUs" data-provider="testData" finished-at="2020-12-09T16:31:11 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -349,16 +345,16 @@ at java.base/java.lang.Thread.run(Thread.java:832)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 4844, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 052ccb54-1fe4-46e8-9af3-c3706d4152e1]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 4844, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 052ccb54-1fe4-46e8-9af3-c3706d4152e1
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -371,8 +367,8 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:287)
+at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:54)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -406,11 +402,19 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUs -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@2aa5fe93]" started-at="2020-12-08T18:38:12 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607432892211" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@1a0dcaa]" started-at="2020-12-09T16:31:11 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607511671777" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@1a0dcaa]" started-at="2020-12-09T16:31:11 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607511671777" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="contactUs(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@2aa5fe93]" started-at="2020-12-08T18:38:12 IST" name="contactUs" data-provider="testData" finished-at="2020-12-08T18:38:12 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@1a0dcaa]" started-at="2020-12-09T16:31:11 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607511671778" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="contactUs(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@1a0dcaa]" started-at="2020-12-09T16:31:11 IST" name="contactUs" data-provider="testData" finished-at="2020-12-09T16:31:11 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -429,16 +433,16 @@ at java.base/java.lang.Thread.run(Thread.java:832)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 4844, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 052ccb54-1fe4-46e8-9af3-c3706d4152e1]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 4844, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 052ccb54-1fe4-46e8-9af3-c3706d4152e1
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -451,8 +455,8 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:287)
+at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:54)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -486,21 +490,17 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUs -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@2aa5fe93]" started-at="2020-12-08T18:38:12 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607432892211" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@1a0dcaa]" started-at="2020-12-09T16:31:11 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607511671778" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@2aa5fe93]" started-at="2020-12-08T18:38:12 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607432892212" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
+        </test-method> <!-- beforeMethod -->
       </class> <!-- com.atmecs.practise.testscript.ContactUsTest -->
       <class name="com.atmecs.practise.testscript.SearchProductTest">
-        <test-method is-config="true" signature="initBrowser()[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab]" started-at="2020-12-08T18:37:20 IST" name="initBrowser" finished-at="2020-12-08T18:37:24 IST" duration-ms="4356" status="PASS">
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@19d37183]" started-at="2020-12-09T16:30:09 IST" name="initBrowser" finished-at="2020-12-09T16:30:13 IST" duration-ms="4069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab]" started-at="2020-12-08T18:37:25 IST" name="beforeMethod" finished-at="2020-12-08T18:37:49 IST" duration-ms="23694" status="FAIL">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@19d37183]" started-at="2020-12-09T16:30:14 IST" name="beforeMethod" finished-at="2020-12-09T16:30:43 IST" duration-ms="28985" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -508,70 +508,10 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7220, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7220, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-at java.base/java.lang.Thread.run(Thread.java:832)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab]" started-at="2020-12-08T18:37:49 IST" name="searchProduct" data-provider="testData" finished-at="2020-12-08T18:37:49 IST" duration-ms="0" status="SKIP">
+        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@19d37183]" started-at="2020-12-09T16:30:43 IST" name="searchProduct" data-provider="testData" finished-at="2020-12-09T16:30:46 IST" duration-ms="3406" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -579,22 +519,86 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[The element reference of <button class="btn btn-default button-search" name="submit_search" type="submit"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7068, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a59dae14-09d7-4f56-9314-ac9c5fa240fe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: The element reference of <button class="btn btn-default button-search" name="submit_search" type="submit"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7068, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a59dae14-09d7-4f56-9314-ac9c5fa240fe
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at com.atmecs.practise.page.PageMethods.clickSearchButton(PageMethods.java:40)
+at com.atmecs.practise.page.SearchProductPage.searchProduct(SearchProductPage.java:59)
+at com.atmecs.practise.testscript.SearchProductTest.searchProduct(SearchProductTest.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@19d37183]" started-at="2020-12-09T16:30:47 IST" name="afterMethod" finished-at="2020-12-09T16:30:49 IST" duration-ms="2052" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[Tried to run command without establishing a connection
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7220, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7068, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a59dae14-09d7-4f56-9314-ac9c5fa240fe]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7220, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7068, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a59dae14-09d7-4f56-9314-ac9c5fa240fe
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -607,8 +611,8 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at com.atmecs.practise.page.BasePage.afterMethod(BasePage.java:74)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -618,7 +622,8 @@ at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(Met
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
 at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
 at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
@@ -641,12 +646,12 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchProduct -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab]" started-at="2020-12-08T18:37:49 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607432869149" status="SKIP">
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@19d37183]" started-at="2020-12-09T16:30:49 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607511649129" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab]" started-at="2020-12-08T18:37:49 IST" name="searchProduct" data-provider="testData" finished-at="2020-12-08T18:37:49 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@19d37183]" started-at="2020-12-09T16:30:49 IST" name="searchProduct" data-provider="testData" finished-at="2020-12-09T16:30:49 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -660,16 +665,16 @@ at java.base/java.lang.Thread.run(Thread.java:832)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7220, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7068, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a59dae14-09d7-4f56-9314-ac9c5fa240fe]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7220, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7068, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a59dae14-09d7-4f56-9314-ac9c5fa240fe
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -682,8 +687,8 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at com.atmecs.practise.page.BasePage.afterMethod(BasePage.java:74)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -693,7 +698,8 @@ at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(Met
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
 at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
 at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
@@ -717,27 +723,11 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab]" started-at="2020-12-08T18:37:49 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607432869150" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab]" started-at="2020-12-08T18:37:49 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607432869151" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@19d37183]" started-at="2020-12-09T16:30:49 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607511649130" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab]" started-at="2020-12-08T18:37:49 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607432869151" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab]" started-at="2020-12-08T18:37:49 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607432869153" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab]" started-at="2020-12-08T18:37:49 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607432869153" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab]" started-at="2020-12-08T18:37:49 IST" name="searchProduct" data-provider="testData" finished-at="2020-12-08T18:37:49 IST" duration-ms="0" status="SKIP">
+        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@19d37183]" started-at="2020-12-09T16:30:49 IST" name="searchProduct" data-provider="testData" finished-at="2020-12-09T16:30:49 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -751,16 +741,16 @@ at java.base/java.lang.Thread.run(Thread.java:832)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7220, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7068, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a59dae14-09d7-4f56-9314-ac9c5fa240fe]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7220, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7068, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a59dae14-09d7-4f56-9314-ac9c5fa240fe
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -773,8 +763,8 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at com.atmecs.practise.page.BasePage.afterMethod(BasePage.java:74)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -784,7 +774,8 @@ at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(Met
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
 at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
 at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
@@ -808,11 +799,23 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab]" started-at="2020-12-08T18:37:49 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607432869154" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@19d37183]" started-at="2020-12-09T16:30:49 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607511649131" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab]" started-at="2020-12-08T18:37:49 IST" name="searchProduct" data-provider="testData" finished-at="2020-12-08T18:37:49 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@19d37183]" started-at="2020-12-09T16:30:49 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607511649131" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@19d37183]" started-at="2020-12-09T16:30:49 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607511649131" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@19d37183]" started-at="2020-12-09T16:30:49 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607511649132" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@19d37183]" started-at="2020-12-09T16:30:49 IST" name="searchProduct" data-provider="testData" finished-at="2020-12-09T16:30:49 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -826,16 +829,16 @@ at java.base/java.lang.Thread.run(Thread.java:832)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7220, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7068, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a59dae14-09d7-4f56-9314-ac9c5fa240fe]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7220, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7068, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a59dae14-09d7-4f56-9314-ac9c5fa240fe
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -848,8 +851,8 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at com.atmecs.practise.page.BasePage.afterMethod(BasePage.java:74)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -859,7 +862,8 @@ at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(Met
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
 at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
 at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
@@ -883,7 +887,11 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab]" started-at="2020-12-08T18:37:49 IST" name="searchProduct" data-provider="testData" finished-at="2020-12-08T18:37:49 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@19d37183]" started-at="2020-12-09T16:30:49 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607511649132" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@19d37183]" started-at="2020-12-09T16:30:49 IST" name="searchProduct" data-provider="testData" finished-at="2020-12-09T16:30:49 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -897,16 +905,16 @@ at java.base/java.lang.Thread.run(Thread.java:832)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7220, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7068, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a59dae14-09d7-4f56-9314-ac9c5fa240fe]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ATMECSINLT-601', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7220, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7068, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a59dae14-09d7-4f56-9314-ac9c5fa240fe
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -919,8 +927,8 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at com.atmecs.practise.page.BasePage.afterMethod(BasePage.java:74)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -930,7 +938,8 @@ at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(Met
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
 at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
 at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
@@ -954,19 +963,15 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab]" started-at="2020-12-08T18:37:49 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607432869154" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab]" started-at="2020-12-08T18:37:49 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607432869155" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@19d37183]" started-at="2020-12-09T16:30:49 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1607511649133" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.atmecs.practise.testscript.SearchProductTest -->
     </test> <!-- ChromeTest -->
-    <test started-at="2020-12-08T18:37:20 IST" name="FirefoxTest" finished-at="2020-12-08T18:41:16 IST" duration-ms="235671">
+    <test started-at="2020-12-09T16:30:09 IST" name="FirefoxTest" finished-at="2020-12-09T16:34:24 IST" duration-ms="254578">
       <class name="com.atmecs.practise.testscript.ContactUsTest">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@78dd667e]" started-at="2020-12-08T18:39:25 IST" name="beforeMethod" finished-at="2020-12-08T18:39:39 IST" duration-ms="14508" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@23f7d05d]" started-at="2020-12-09T16:32:17 IST" name="beforeMethod" finished-at="2020-12-09T16:32:33 IST" duration-ms="15440" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -977,7 +982,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="contactUs(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@78dd667e]" started-at="2020-12-08T18:39:39 IST" name="contactUs" data-provider="testData" finished-at="2020-12-08T18:39:45 IST" duration-ms="5268" status="PASS">
+        <test-method signature="contactUs(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@23f7d05d]" started-at="2020-12-09T16:32:33 IST" name="contactUs" data-provider="testData" finished-at="2020-12-09T16:32:38 IST" duration-ms="5170" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -993,11 +998,11 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUs -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@78dd667e]" started-at="2020-12-08T18:39:45 IST" name="afterMethod" finished-at="2020-12-08T18:39:47 IST" duration-ms="2579" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@23f7d05d]" started-at="2020-12-09T16:32:38 IST" name="afterMethod" finished-at="2020-12-09T16:32:41 IST" duration-ms="2994" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@78dd667e]" started-at="2020-12-08T18:39:47 IST" name="beforeMethod" finished-at="2020-12-08T18:40:00 IST" duration-ms="13036" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@23f7d05d]" started-at="2020-12-09T16:32:41 IST" name="beforeMethod" finished-at="2020-12-09T16:32:56 IST" duration-ms="15395" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1008,7 +1013,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="contactUs(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@78dd667e]" started-at="2020-12-08T18:40:00 IST" name="contactUs" data-provider="testData" finished-at="2020-12-08T18:40:05 IST" duration-ms="4908" status="PASS">
+        <test-method signature="contactUs(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@23f7d05d]" started-at="2020-12-09T16:32:56 IST" name="contactUs" data-provider="testData" finished-at="2020-12-09T16:33:02 IST" duration-ms="5262" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1024,11 +1029,11 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUs -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@78dd667e]" started-at="2020-12-08T18:40:05 IST" name="afterMethod" finished-at="2020-12-08T18:40:09 IST" duration-ms="3305" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@23f7d05d]" started-at="2020-12-09T16:33:02 IST" name="afterMethod" finished-at="2020-12-09T16:33:05 IST" duration-ms="3283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@78dd667e]" started-at="2020-12-08T18:40:09 IST" name="beforeMethod" finished-at="2020-12-08T18:40:22 IST" duration-ms="13555" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@23f7d05d]" started-at="2020-12-09T16:33:05 IST" name="beforeMethod" finished-at="2020-12-09T16:33:21 IST" duration-ms="15682" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1039,7 +1044,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="contactUs(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@78dd667e]" started-at="2020-12-08T18:40:22 IST" name="contactUs" data-provider="testData" finished-at="2020-12-08T18:40:28 IST" duration-ms="5785" status="PASS">
+        <test-method signature="contactUs(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@23f7d05d]" started-at="2020-12-09T16:33:21 IST" name="contactUs" data-provider="testData" finished-at="2020-12-09T16:33:25 IST" duration-ms="4507" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1055,11 +1060,11 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUs -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@78dd667e]" started-at="2020-12-08T18:40:28 IST" name="afterMethod" finished-at="2020-12-08T18:40:32 IST" duration-ms="3812" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@23f7d05d]" started-at="2020-12-09T16:33:25 IST" name="afterMethod" finished-at="2020-12-09T16:33:29 IST" duration-ms="3969" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@78dd667e]" started-at="2020-12-08T18:40:32 IST" name="beforeMethod" finished-at="2020-12-08T18:40:44 IST" duration-ms="12597" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@23f7d05d]" started-at="2020-12-09T16:33:29 IST" name="beforeMethod" finished-at="2020-12-09T16:33:45 IST" duration-ms="15432" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1070,7 +1075,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="contactUs(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@78dd667e]" started-at="2020-12-08T18:40:44 IST" name="contactUs" data-provider="testData" finished-at="2020-12-08T18:40:48 IST" duration-ms="4022" status="PASS">
+        <test-method signature="contactUs(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@23f7d05d]" started-at="2020-12-09T16:33:45 IST" name="contactUs" data-provider="testData" finished-at="2020-12-09T16:33:50 IST" duration-ms="5589" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1086,11 +1091,11 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUs -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@78dd667e]" started-at="2020-12-08T18:40:48 IST" name="afterMethod" finished-at="2020-12-08T18:40:52 IST" duration-ms="3756" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@23f7d05d]" started-at="2020-12-09T16:33:50 IST" name="afterMethod" finished-at="2020-12-09T16:33:55 IST" duration-ms="5058" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@78dd667e]" started-at="2020-12-08T18:40:52 IST" name="beforeMethod" finished-at="2020-12-08T18:41:06 IST" duration-ms="14008" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@23f7d05d]" started-at="2020-12-09T16:33:55 IST" name="beforeMethod" finished-at="2020-12-09T16:34:14 IST" duration-ms="19065" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1101,7 +1106,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="contactUs(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@78dd667e]" started-at="2020-12-08T18:41:06 IST" name="contactUs" data-provider="testData" finished-at="2020-12-08T18:41:13 IST" duration-ms="6416" status="PASS">
+        <test-method signature="contactUs(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@23f7d05d]" started-at="2020-12-09T16:34:14 IST" name="contactUs" data-provider="testData" finished-at="2020-12-09T16:34:20 IST" duration-ms="5559" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1117,17 +1122,17 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUs -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@78dd667e]" started-at="2020-12-08T18:41:13 IST" name="afterMethod" finished-at="2020-12-08T18:41:16 IST" duration-ms="3085" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.ContactUsTest@23f7d05d]" started-at="2020-12-09T16:34:20 IST" name="afterMethod" finished-at="2020-12-09T16:34:24 IST" duration-ms="4105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.atmecs.practise.testscript.ContactUsTest -->
       <class name="com.atmecs.practise.testscript.SearchProductTest">
-        <test-method is-config="true" signature="initBrowser()[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@1d76aeea]" started-at="2020-12-08T18:37:20 IST" name="initBrowser" finished-at="2020-12-08T18:37:24 IST" duration-ms="4370" status="PASS">
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@23986957]" started-at="2020-12-09T16:30:09 IST" name="initBrowser" finished-at="2020-12-09T16:30:13 IST" duration-ms="4069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@1d76aeea]" started-at="2020-12-08T18:37:25 IST" name="beforeMethod" finished-at="2020-12-08T18:37:41 IST" duration-ms="16368" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@23986957]" started-at="2020-12-09T16:30:14 IST" name="beforeMethod" finished-at="2020-12-09T16:30:43 IST" duration-ms="28985" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1138,7 +1143,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@1d76aeea]" started-at="2020-12-08T18:37:41 IST" name="searchProduct" data-provider="testData" finished-at="2020-12-08T18:37:45 IST" duration-ms="3950" status="PASS">
+        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@23986957]" started-at="2020-12-09T16:30:43 IST" name="searchProduct" data-provider="testData" finished-at="2020-12-09T16:30:46 IST" duration-ms="3265" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1149,11 +1154,11 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@1d76aeea]" started-at="2020-12-08T18:37:45 IST" name="afterMethod" finished-at="2020-12-08T18:37:49 IST" duration-ms="3369" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@23986957]" started-at="2020-12-09T16:30:46 IST" name="afterMethod" finished-at="2020-12-09T16:30:49 IST" duration-ms="2381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@1d76aeea]" started-at="2020-12-08T18:37:49 IST" name="beforeMethod" finished-at="2020-12-08T18:38:04 IST" duration-ms="15240" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@23986957]" started-at="2020-12-09T16:30:49 IST" name="beforeMethod" finished-at="2020-12-09T16:31:04 IST" duration-ms="15529" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1164,7 +1169,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@1d76aeea]" started-at="2020-12-08T18:38:04 IST" name="searchProduct" data-provider="testData" finished-at="2020-12-08T18:38:07 IST" duration-ms="3561" status="PASS">
+        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@23986957]" started-at="2020-12-09T16:31:04 IST" name="searchProduct" data-provider="testData" finished-at="2020-12-09T16:31:08 IST" duration-ms="3408" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1175,11 +1180,11 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@1d76aeea]" started-at="2020-12-08T18:38:07 IST" name="afterMethod" finished-at="2020-12-08T18:38:12 IST" duration-ms="4265" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@23986957]" started-at="2020-12-09T16:31:08 IST" name="afterMethod" finished-at="2020-12-09T16:31:11 IST" duration-ms="3703" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@1d76aeea]" started-at="2020-12-08T18:38:12 IST" name="beforeMethod" finished-at="2020-12-08T18:38:27 IST" duration-ms="15396" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@23986957]" started-at="2020-12-09T16:31:11 IST" name="beforeMethod" finished-at="2020-12-09T16:31:26 IST" duration-ms="14532" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1190,7 +1195,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@1d76aeea]" started-at="2020-12-08T18:38:27 IST" name="searchProduct" data-provider="testData" finished-at="2020-12-08T18:38:32 IST" duration-ms="4963" status="PASS">
+        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@23986957]" started-at="2020-12-09T16:31:26 IST" name="searchProduct" data-provider="testData" finished-at="2020-12-09T16:31:28 IST" duration-ms="2574" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1201,11 +1206,11 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@1d76aeea]" started-at="2020-12-08T18:38:32 IST" name="afterMethod" finished-at="2020-12-08T18:38:36 IST" duration-ms="3854" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@23986957]" started-at="2020-12-09T16:31:28 IST" name="afterMethod" finished-at="2020-12-09T16:31:32 IST" duration-ms="3137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@1d76aeea]" started-at="2020-12-08T18:38:36 IST" name="beforeMethod" finished-at="2020-12-08T18:38:56 IST" duration-ms="20329" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@23986957]" started-at="2020-12-09T16:31:32 IST" name="beforeMethod" finished-at="2020-12-09T16:31:45 IST" duration-ms="13276" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1216,7 +1221,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@1d76aeea]" started-at="2020-12-08T18:38:56 IST" name="searchProduct" data-provider="testData" finished-at="2020-12-08T18:38:59 IST" duration-ms="2918" status="PASS">
+        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@23986957]" started-at="2020-12-09T16:31:45 IST" name="searchProduct" data-provider="testData" finished-at="2020-12-09T16:31:48 IST" duration-ms="3479" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1227,11 +1232,11 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@1d76aeea]" started-at="2020-12-08T18:38:59 IST" name="afterMethod" finished-at="2020-12-08T18:39:03 IST" duration-ms="4185" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@23986957]" started-at="2020-12-09T16:31:48 IST" name="afterMethod" finished-at="2020-12-09T16:31:52 IST" duration-ms="3681" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@1d76aeea]" started-at="2020-12-08T18:39:03 IST" name="beforeMethod" finished-at="2020-12-08T18:39:19 IST" duration-ms="15918" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@23986957]" started-at="2020-12-09T16:31:52 IST" name="beforeMethod" finished-at="2020-12-09T16:32:11 IST" duration-ms="19051" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1242,7 +1247,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@1d76aeea]" started-at="2020-12-08T18:39:19 IST" name="searchProduct" data-provider="testData" finished-at="2020-12-08T18:39:22 IST" duration-ms="2639" status="PASS">
+        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@23986957]" started-at="2020-12-09T16:32:11 IST" name="searchProduct" data-provider="testData" finished-at="2020-12-09T16:32:14 IST" duration-ms="2937" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1253,7 +1258,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@1d76aeea]" started-at="2020-12-08T18:39:22 IST" name="afterMethod" finished-at="2020-12-08T18:39:25 IST" duration-ms="3028" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.atmecs.practise.testscript.SearchProductTest@23986957]" started-at="2020-12-09T16:32:14 IST" name="afterMethod" finished-at="2020-12-09T16:32:17 IST" duration-ms="3394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

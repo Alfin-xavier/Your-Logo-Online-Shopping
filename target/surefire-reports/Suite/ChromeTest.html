@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>ChromeTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/10</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/9</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Dec 08 18:37:20 IST 2020</td>
+<td>Started on:</td><td>Wed Dec 09 16:30:09 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>51 seconds (51766 ms)</td>
+<tr><td>Total time:</td><td>61 seconds (61933 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,86 +75,13 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.atmecs.practise.testscript.SearchProductTest.beforeMethod()'><b>beforeMethod</b><br>Test class: com.atmecs.practise.testscript.SearchProductTest<br>Parameters: chrome</td>
-<td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7220, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace389020608", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace389020608'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7220, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-</pre></div></td>
-<td>23</td>
-<td>com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab</td></tr>
-<tr>
 <td title='com.atmecs.practise.testscript.ContactUsTest.beforeMethod()'><b>beforeMethod</b><br>Test class: com.atmecs.practise.testscript.ContactUsTest<br>Parameters: chrome</td>
 <td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 4844, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 052ccb54-1fe4-46e8-9af3-c3706d4152e1
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -162,20 +89,20 @@ Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:287)
+	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:54)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1010507898", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1010507898'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace806957130", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace806957130'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 4844, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 052ccb54-1fe4-46e8-9af3-c3706d4152e1
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -188,8 +115,8 @@ Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:287)
+	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:54)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -218,8 +145,82 @@ Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
-<td>23</td>
-<td>com.atmecs.practise.testscript.ContactUsTest@2aa5fe93</td></tr>
+<td>22</td>
+<td>com.atmecs.practise.testscript.ContactUsTest@1a0dcaa</td></tr>
+<tr>
+<td title='com.atmecs.practise.testscript.SearchProductTest.afterMethod()'><b>afterMethod</b><br>Test class: com.atmecs.practise.testscript.SearchProductTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7068, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a59dae14-09d7-4f56-9314-ac9c5fa240fe
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at com.atmecs.practise.page.BasePage.afterMethod(BasePage.java:74)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1614770406", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1614770406'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7068, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a59dae14-09d7-4f56-9314-ac9c5fa240fe
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at com.atmecs.practise.page.BasePage.afterMethod(BasePage.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
+	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>2</td>
+<td>com.atmecs.practise.testscript.SearchProductTest@19d37183</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
@@ -231,93 +232,171 @@ Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
 <tr>
 <td title='com.atmecs.practise.testscript.SearchProductTest.beforeMethod()'><b>beforeMethod</b><br>Test class: com.atmecs.practise.testscript.SearchProductTest</td>
 <td></td>
-<td>-1607432869</td>
-<td>com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab</td></tr>
+<td>-1607511649</td>
+<td>com.atmecs.practise.testscript.SearchProductTest@19d37183</td></tr>
 <tr>
 <td title='com.atmecs.practise.testscript.SearchProductTest.beforeMethod()'><b>beforeMethod</b><br>Test class: com.atmecs.practise.testscript.SearchProductTest</td>
 <td></td>
-<td>-1607432869</td>
-<td>com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab</td></tr>
+<td>-1607511649</td>
+<td>com.atmecs.practise.testscript.SearchProductTest@19d37183</td></tr>
 <tr>
 <td title='com.atmecs.practise.testscript.SearchProductTest.beforeMethod()'><b>beforeMethod</b><br>Test class: com.atmecs.practise.testscript.SearchProductTest</td>
 <td></td>
-<td>-1607432869</td>
-<td>com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab</td></tr>
+<td>-1607511649</td>
+<td>com.atmecs.practise.testscript.SearchProductTest@19d37183</td></tr>
 <tr>
 <td title='com.atmecs.practise.testscript.SearchProductTest.beforeMethod()'><b>beforeMethod</b><br>Test class: com.atmecs.practise.testscript.SearchProductTest</td>
 <td></td>
-<td>-1607432869</td>
-<td>com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab</td></tr>
+<td>-1607511649</td>
+<td>com.atmecs.practise.testscript.SearchProductTest@19d37183</td></tr>
 <tr>
 <td title='com.atmecs.practise.testscript.ContactUsTest.beforeMethod()'><b>beforeMethod</b><br>Test class: com.atmecs.practise.testscript.ContactUsTest</td>
 <td></td>
-<td>-1607432892</td>
-<td>com.atmecs.practise.testscript.ContactUsTest@2aa5fe93</td></tr>
+<td>-1607511671</td>
+<td>com.atmecs.practise.testscript.ContactUsTest@1a0dcaa</td></tr>
 <tr>
 <td title='com.atmecs.practise.testscript.ContactUsTest.beforeMethod()'><b>beforeMethod</b><br>Test class: com.atmecs.practise.testscript.ContactUsTest</td>
 <td></td>
-<td>-1607432892</td>
-<td>com.atmecs.practise.testscript.ContactUsTest@2aa5fe93</td></tr>
+<td>-1607511671</td>
+<td>com.atmecs.practise.testscript.ContactUsTest@1a0dcaa</td></tr>
 <tr>
 <td title='com.atmecs.practise.testscript.ContactUsTest.beforeMethod()'><b>beforeMethod</b><br>Test class: com.atmecs.practise.testscript.ContactUsTest</td>
 <td></td>
-<td>-1607432892</td>
-<td>com.atmecs.practise.testscript.ContactUsTest@2aa5fe93</td></tr>
+<td>-1607511671</td>
+<td>com.atmecs.practise.testscript.ContactUsTest@1a0dcaa</td></tr>
 <tr>
 <td title='com.atmecs.practise.testscript.ContactUsTest.beforeMethod()'><b>beforeMethod</b><br>Test class: com.atmecs.practise.testscript.ContactUsTest</td>
 <td></td>
-<td>-1607432892</td>
-<td>com.atmecs.practise.testscript.ContactUsTest@2aa5fe93</td></tr>
+<td>-1607511671</td>
+<td>com.atmecs.practise.testscript.ContactUsTest@1a0dcaa</td></tr>
 <tr>
 <td title='com.atmecs.practise.testscript.SearchProductTest.afterMethod()'><b>afterMethod</b><br>Test class: com.atmecs.practise.testscript.SearchProductTest</td>
 <td></td>
-<td>-1607432869</td>
-<td>com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab</td></tr>
+<td>-1607511649</td>
+<td>com.atmecs.practise.testscript.SearchProductTest@19d37183</td></tr>
 <tr>
 <td title='com.atmecs.practise.testscript.SearchProductTest.afterMethod()'><b>afterMethod</b><br>Test class: com.atmecs.practise.testscript.SearchProductTest</td>
 <td></td>
-<td>-1607432869</td>
-<td>com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab</td></tr>
+<td>-1607511649</td>
+<td>com.atmecs.practise.testscript.SearchProductTest@19d37183</td></tr>
 <tr>
 <td title='com.atmecs.practise.testscript.SearchProductTest.afterMethod()'><b>afterMethod</b><br>Test class: com.atmecs.practise.testscript.SearchProductTest</td>
 <td></td>
-<td>-1607432869</td>
-<td>com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab</td></tr>
+<td>-1607511649</td>
+<td>com.atmecs.practise.testscript.SearchProductTest@19d37183</td></tr>
 <tr>
 <td title='com.atmecs.practise.testscript.SearchProductTest.afterMethod()'><b>afterMethod</b><br>Test class: com.atmecs.practise.testscript.SearchProductTest</td>
 <td></td>
-<td>-1607432869</td>
-<td>com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab</td></tr>
-<tr>
-<td title='com.atmecs.practise.testscript.SearchProductTest.afterMethod()'><b>afterMethod</b><br>Test class: com.atmecs.practise.testscript.SearchProductTest</td>
-<td></td>
-<td>-1607432869</td>
-<td>com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab</td></tr>
+<td>-1607511649</td>
+<td>com.atmecs.practise.testscript.SearchProductTest@19d37183</td></tr>
 <tr>
 <td title='com.atmecs.practise.testscript.ContactUsTest.afterMethod()'><b>afterMethod</b><br>Test class: com.atmecs.practise.testscript.ContactUsTest</td>
 <td></td>
-<td>-1607432892</td>
-<td>com.atmecs.practise.testscript.ContactUsTest@2aa5fe93</td></tr>
+<td>-1607511671</td>
+<td>com.atmecs.practise.testscript.ContactUsTest@1a0dcaa</td></tr>
 <tr>
 <td title='com.atmecs.practise.testscript.ContactUsTest.afterMethod()'><b>afterMethod</b><br>Test class: com.atmecs.practise.testscript.ContactUsTest</td>
 <td></td>
-<td>-1607432892</td>
-<td>com.atmecs.practise.testscript.ContactUsTest@2aa5fe93</td></tr>
+<td>-1607511671</td>
+<td>com.atmecs.practise.testscript.ContactUsTest@1a0dcaa</td></tr>
 <tr>
 <td title='com.atmecs.practise.testscript.ContactUsTest.afterMethod()'><b>afterMethod</b><br>Test class: com.atmecs.practise.testscript.ContactUsTest</td>
 <td></td>
-<td>-1607432892</td>
-<td>com.atmecs.practise.testscript.ContactUsTest@2aa5fe93</td></tr>
+<td>-1607511671</td>
+<td>com.atmecs.practise.testscript.ContactUsTest@1a0dcaa</td></tr>
 <tr>
 <td title='com.atmecs.practise.testscript.ContactUsTest.afterMethod()'><b>afterMethod</b><br>Test class: com.atmecs.practise.testscript.ContactUsTest</td>
 <td></td>
-<td>-1607432892</td>
-<td>com.atmecs.practise.testscript.ContactUsTest@2aa5fe93</td></tr>
+<td>-1607511671</td>
+<td>com.atmecs.practise.testscript.ContactUsTest@1a0dcaa</td></tr>
 <tr>
 <td title='com.atmecs.practise.testscript.ContactUsTest.afterMethod()'><b>afterMethod</b><br>Test class: com.atmecs.practise.testscript.ContactUsTest</td>
 <td></td>
-<td>-1607432892</td>
-<td>com.atmecs.practise.testscript.ContactUsTest@2aa5fe93</td></tr>
+<td>-1607511671</td>
+<td>com.atmecs.practise.testscript.ContactUsTest@1a0dcaa</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.atmecs.practise.testscript.SearchProductTest.searchProduct()'><b>searchProduct</b><br>Test class: com.atmecs.practise.testscript.SearchProductTest<br>Parameters: Kurti</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: The element reference of &lt;button class=&quot;btn btn-default button-search&quot; name=&quot;submit_search&quot; type=&quot;submit&quot;&gt; is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7068, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a59dae14-09d7-4f56-9314-ac9c5fa240fe
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.atmecs.practise.page.PageMethods.clickSearchButton(PageMethods.java:40)
+	at com.atmecs.practise.page.SearchProductPage.searchProduct(SearchProductPage.java:59)
+	at com.atmecs.practise.testscript.SearchProductTest.searchProduct(SearchProductTest.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace56628795", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace56628795'><pre>org.openqa.selenium.StaleElementReferenceException: The element reference of &lt;button class=&quot;btn btn-default button-search&quot; name=&quot;submit_search&quot; type=&quot;submit&quot;&gt; is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7068, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a59dae14-09d7-4f56-9314-ac9c5fa240fe
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.atmecs.practise.page.PageMethods.clickSearchButton(PageMethods.java:40)
+	at com.atmecs.practise.page.SearchProductPage.searchProduct(SearchProductPage.java:59)
+	at com.atmecs.practise.testscript.SearchProductTest.searchProduct(SearchProductTest.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>3</td>
+<td>com.atmecs.practise.testscript.SearchProductTest@19d37183</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -332,8 +411,8 @@ Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 4844, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 052ccb54-1fe4-46e8-9af3-c3706d4152e1
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -341,20 +420,20 @@ Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:287)
+	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:54)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace6574944", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace6574944'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1235480386", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1235480386'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 4844, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 052ccb54-1fe4-46e8-9af3-c3706d4152e1
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -367,8 +446,8 @@ Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:287)
+	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:54)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -398,15 +477,15 @@ Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
 <td>0</td>
-<td>com.atmecs.practise.testscript.ContactUsTest@2aa5fe93</td></tr>
+<td>com.atmecs.practise.testscript.ContactUsTest@1a0dcaa</td></tr>
 <tr>
 <td title='com.atmecs.practise.testscript.ContactUsTest.contactUs()'><b>contactUs</b><br>Test class: com.atmecs.practise.testscript.ContactUsTest<br>Parameters: def@gmail.com, def</td>
 <td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 4844, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 052ccb54-1fe4-46e8-9af3-c3706d4152e1
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -414,20 +493,20 @@ Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:287)
+	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:54)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1848350289", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1848350289'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1345378765", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1345378765'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 4844, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 052ccb54-1fe4-46e8-9af3-c3706d4152e1
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -440,8 +519,8 @@ Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:287)
+	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:54)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -471,15 +550,15 @@ Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
 <td>0</td>
-<td>com.atmecs.practise.testscript.ContactUsTest@2aa5fe93</td></tr>
+<td>com.atmecs.practise.testscript.ContactUsTest@1a0dcaa</td></tr>
 <tr>
 <td title='com.atmecs.practise.testscript.ContactUsTest.contactUs()'><b>contactUs</b><br>Test class: com.atmecs.practise.testscript.ContactUsTest<br>Parameters: ghi@gmail.com, ghi</td>
 <td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 4844, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 052ccb54-1fe4-46e8-9af3-c3706d4152e1
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -487,20 +566,20 @@ Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:287)
+	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:54)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1574003365", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1574003365'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace662734770", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace662734770'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 4844, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 052ccb54-1fe4-46e8-9af3-c3706d4152e1
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -513,8 +592,8 @@ Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:287)
+	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:54)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -544,15 +623,15 @@ Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
 <td>0</td>
-<td>com.atmecs.practise.testscript.ContactUsTest@2aa5fe93</td></tr>
+<td>com.atmecs.practise.testscript.ContactUsTest@1a0dcaa</td></tr>
 <tr>
 <td title='com.atmecs.practise.testscript.ContactUsTest.contactUs()'><b>contactUs</b><br>Test class: com.atmecs.practise.testscript.ContactUsTest<br>Parameters: abc@gmail.com, abc</td>
 <td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 4844, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 052ccb54-1fe4-46e8-9af3-c3706d4152e1
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -560,20 +639,20 @@ Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:287)
+	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:54)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1858084863", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1858084863'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace907120525", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace907120525'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 4844, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 052ccb54-1fe4-46e8-9af3-c3706d4152e1
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -586,8 +665,8 @@ Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:287)
+	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:54)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -617,15 +696,15 @@ Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
 <td>0</td>
-<td>com.atmecs.practise.testscript.ContactUsTest@2aa5fe93</td></tr>
+<td>com.atmecs.practise.testscript.ContactUsTest@1a0dcaa</td></tr>
 <tr>
 <td title='com.atmecs.practise.testscript.ContactUsTest.contactUs()'><b>contactUs</b><br>Test class: com.atmecs.practise.testscript.ContactUsTest<br>Parameters: def@gmail.com, def</td>
 <td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 4844, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 052ccb54-1fe4-46e8-9af3-c3706d4152e1
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -633,20 +712,20 @@ Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:287)
+	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:54)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2002880248", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2002880248'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace109662060", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace109662060'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 4844, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 10556, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 052ccb54-1fe4-46e8-9af3-c3706d4152e1
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -659,8 +738,8 @@ Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:287)
+	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:54)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -690,88 +769,15 @@ Session ID: c8ca3d48-0bb7-4c2e-9f0d-2c8e823f8f76
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
 <td>0</td>
-<td>com.atmecs.practise.testscript.ContactUsTest@2aa5fe93</td></tr>
-<tr>
-<td title='com.atmecs.practise.testscript.SearchProductTest.searchProduct()'><b>searchProduct</b><br>Test class: com.atmecs.practise.testscript.SearchProductTest<br>Parameters: Kurti</td>
-<td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7220, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace738407030", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace738407030'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7220, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-</pre></div></td>
-<td>0</td>
-<td>com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab</td></tr>
+<td>com.atmecs.practise.testscript.ContactUsTest@1a0dcaa</td></tr>
 <tr>
 <td title='com.atmecs.practise.testscript.SearchProductTest.searchProduct()'><b>searchProduct</b><br>Test class: com.atmecs.practise.testscript.SearchProductTest<br>Parameters: Top</td>
 <td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7220, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7068, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a59dae14-09d7-4f56-9314-ac9c5fa240fe
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -779,20 +785,20 @@ Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at com.atmecs.practise.page.BasePage.afterMethod(BasePage.java:74)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1058272962", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1058272962'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1706938395", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1706938395'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7220, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7068, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a59dae14-09d7-4f56-9314-ac9c5fa240fe
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -805,8 +811,8 @@ Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at com.atmecs.practise.page.BasePage.afterMethod(BasePage.java:74)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -816,7 +822,8 @@ Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
 	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
 	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
 	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
 	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
@@ -836,15 +843,15 @@ Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
 <td>0</td>
-<td>com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab</td></tr>
+<td>com.atmecs.practise.testscript.SearchProductTest@19d37183</td></tr>
 <tr>
 <td title='com.atmecs.practise.testscript.SearchProductTest.searchProduct()'><b>searchProduct</b><br>Test class: com.atmecs.practise.testscript.SearchProductTest<br>Parameters: Sandals</td>
 <td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7220, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7068, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a59dae14-09d7-4f56-9314-ac9c5fa240fe
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -852,20 +859,20 @@ Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at com.atmecs.practise.page.BasePage.afterMethod(BasePage.java:74)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace924756137", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace924756137'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace618378250", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace618378250'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7220, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7068, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a59dae14-09d7-4f56-9314-ac9c5fa240fe
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -878,8 +885,8 @@ Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at com.atmecs.practise.page.BasePage.afterMethod(BasePage.java:74)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -889,7 +896,8 @@ Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
 	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
 	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
 	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
 	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
@@ -909,15 +917,15 @@ Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
 <td>0</td>
-<td>com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab</td></tr>
+<td>com.atmecs.practise.testscript.SearchProductTest@19d37183</td></tr>
 <tr>
 <td title='com.atmecs.practise.testscript.SearchProductTest.searchProduct()'><b>searchProduct</b><br>Test class: com.atmecs.practise.testscript.SearchProductTest<br>Parameters: Shoes</td>
 <td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7220, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7068, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a59dae14-09d7-4f56-9314-ac9c5fa240fe
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -925,20 +933,20 @@ Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at com.atmecs.practise.page.BasePage.afterMethod(BasePage.java:74)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace858555061", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace858555061'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace448871715", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace448871715'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7220, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7068, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a59dae14-09d7-4f56-9314-ac9c5fa240fe
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -951,8 +959,8 @@ Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at com.atmecs.practise.page.BasePage.afterMethod(BasePage.java:74)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -962,7 +970,8 @@ Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
 	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
 	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
 	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
 	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
@@ -982,15 +991,15 @@ Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
 <td>0</td>
-<td>com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab</td></tr>
+<td>com.atmecs.practise.testscript.SearchProductTest@19d37183</td></tr>
 <tr>
 <td title='com.atmecs.practise.testscript.SearchProductTest.searchProduct()'><b>searchProduct</b><br>Test class: com.atmecs.practise.testscript.SearchProductTest<br>Parameters: dresses</td>
 <td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7220, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7068, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a59dae14-09d7-4f56-9314-ac9c5fa240fe
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -998,20 +1007,20 @@ Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at com.atmecs.practise.page.BasePage.afterMethod(BasePage.java:74)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1744675107", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1744675107'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace533256676", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace533256676'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-601&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7220, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7068, moz:profile: C:\Users\alfin.anthonyraj\A..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a59dae14-09d7-4f56-9314-ac9c5fa240fe
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1024,8 +1033,8 @@ Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at com.atmecs.practise.page.BasePage.beforeMethod(BasePage.java:57)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at com.atmecs.practise.page.BasePage.afterMethod(BasePage.java:74)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1035,7 +1044,8 @@ Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
 	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
 	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
 	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:677)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:661)
 	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
@@ -1055,7 +1065,7 @@ Session ID: c8848c98-eed7-4fa0-865f-83cfb783af03
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
 <td>0</td>
-<td>com.atmecs.practise.testscript.SearchProductTest@3b2cf7ab</td></tr>
+<td>com.atmecs.practise.testscript.SearchProductTest@19d37183</td></tr>
 </table><p>
 </body>
 </html>
