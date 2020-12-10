@@ -2,19 +2,19 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="ChromeTest">
-  	<parameter name="browser" value="chrome"></parameter>
-	    <classes>
-		    <class name="com.atmecs.practise.testscript.SearchProductTest"/>
-		    <class name="com.atmecs.practise.testscript.ContactUsTest"/>
-	    </classes>
-  </test>
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.atmecs.practise.testscript.SearchProductTest"/>
+      <class name="com.atmecs.practise.testscript.ContactUsTest"/>
+    </classes>
+  </test> 
   
   <test thread-count="5" name="FirefoxTest">
-  	<parameter name="browser" value="firefox"></parameter>
-	    <classes>
-		    <class name="com.atmecs.practise.testscript.SearchProductTest"/>
-		    <class name="com.atmecs.practise.testscript.ContactUsTest"/>
-	    </classes>
-  </test>
+  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="com.atmecs.practise.testscript.SearchProductTest"/>
+      <class name="com.atmecs.practise.testscript.ContactUsTest"/>
+    </classes>
+  </test> 
   
 </suite> <!-- Suite -->

@@ -1,5 +1,6 @@
 package com.atmecs.practise.page;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -20,10 +21,13 @@ import org.testng.annotations.Parameters;
 import com.atmecs.practise.constants.FilePathConstants;
 import com.atmecs.practise.util.PropertyReader;
 import com.atmecs.practise.util.TestNGListeners;
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 public class BasePage 
 {
-	public static WebDriver driver;
+	public WebDriver driver;
 	Properties properties;
 	String baseUrl;
 	String browserUrl;

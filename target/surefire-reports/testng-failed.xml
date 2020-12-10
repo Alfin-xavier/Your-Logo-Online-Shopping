@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="5" parallel="tests" name="ChromeTest(failed)" verbose="0">
-    <parameter name="browser" value="chrome"/>
+  <test thread-count="5" parallel="tests" name="FirefoxTest(failed)" verbose="0">
+    <parameter name="browser" value="firefox"/>
     <classes>
       <class name="com.atmecs.practise.testscript.ContactUsTest">
         <methods>
@@ -17,9 +17,9 @@
           <include name="afterMethod"/>
           <include name="initBrowser"/>
           <include name="beforeMethod"/>
-          <include name="searchProduct" invocation-numbers="0"/>
+          <include name="searchProduct"/>
         </methods>
       </class> <!-- com.atmecs.practise.testscript.SearchProductTest -->
     </classes>
-  </test> <!-- ChromeTest(failed) -->
+  </test> <!-- FirefoxTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
